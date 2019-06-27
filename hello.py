@@ -1,4 +1,6 @@
-x = 1
-y = 2
-print("Hello matrix")
-print(x + y)
+import urllib
+
+link = "http://www.iltalehti.fi"
+f = urllib.urlopen(link)
+myfile = f.read()
+print(myfile)
