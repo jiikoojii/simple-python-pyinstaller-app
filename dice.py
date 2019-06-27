@@ -15,7 +15,7 @@ def multiply(x, y):
    return x * y
 def divide(x, y):
    return x / y
-switch (z) {
+switch (z) (
 	case 1: print(x, "+" ,y, "=", add(x, y))
 			break;
 	case 2: print(x, "-", y, "=", subtract(x, y))
@@ -24,4 +24,4 @@ switch (z) {
 			break;
 	case 4: print(z, "/", y, "=", divide(x, y))
 			break;
-}
+)
