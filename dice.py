@@ -1,5 +1,5 @@
 import random
-min = 0
+min = 1
 max = 1000
 
 x = random.randint(min, max)
