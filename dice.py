@@ -24,10 +24,10 @@ def divide(x, y):
    return x / y
 
 if z == 1:
-	print(add(x, y))
+	print(x "+" y, add(x, y))
 elif z == 2:	
-	print(subtract(x, y))
+	print(x "-" y, subtract(x, y))
 elif z == 3:	
-	print(multiply(x, y))
+	print(x "*" y, multiply(x, y))
 elif z == 4:	
-	print(divide(x, y))
+	print(z "/" y, divide(x, y))
