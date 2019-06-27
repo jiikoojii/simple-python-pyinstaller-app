@@ -15,13 +15,10 @@ def multiply(x, y):
    return x * y
 def divide(x, y):
    return x / y
-switch (z) (
-	case 1: print(x, "+" ,y, "=", add(x, y))
-			break;
-	case 2: print(x, "-", y, "=", subtract(x, y))
-			break;
-	case 3: print(x, "*", y, "=", multiply(x, y))
-			break;
-	case 4: print(z, "/", y, "=", divide(x, y))
-			break;
-)
+def operations(z):
+	switcher={
+		1: print(x, "+" ,y, "=", add(x, y)),
+		2: print(x, "-", y, "=", subtract(x, y)),
+		3: print(x, "*", y, "=", multiply(x, y)),
+		4: print(z, "/", y, "=", divide(x, y)),
+}
