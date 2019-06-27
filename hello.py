@@ -1,6 +1,5 @@
-import urllib
+import requests
 
 link = "http://www.iltalehti.fi"
-f = urllib.request.urlopen(link)
-myfile = f.read()
-print(myfile)
+f = requests.get(link)
+print(f.text)
