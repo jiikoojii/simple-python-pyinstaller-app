@@ -6,6 +6,7 @@ pipeline {
 					sh '''
 					python hello.py
 					ls -la
+					ping -c 3 www.google.com
 					'''
 				}
         }
