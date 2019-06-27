@@ -10,7 +10,7 @@ z = random.randint(1, 4)
 #else:
 #	print("Not so smol anymoar with ", number)
 #print(number)
-print("first number", z, "second number", y, "operator", z)
+print("first number:", z, "\nsecond number:", y, "\noperator:", z)
 def add(x, y):
    return x + y
 # This function subtracts two numbers 
