@@ -15,13 +15,12 @@ def multiply(x, y):
    return x * y
 def divide(x, y):
    return x / y
-def operations(z):
-	switcher={
-		1: print(x, "+" ,y, "=", add(x, y)),
-		2: print(x, "-", y, "=", subtract(x, y)),
-		3: print(x, "*", y, "=", multiply(x, y)),
-		4: print(z, "/", y, "=", divide(x, y)),
-}
-def switch(z)
-	return switcher.get(z)()
-print(switcher)
+   
+if z == 1:
+	print(x, "+" ,y, "=", add(x, y))
+elif z == 2:	
+	print(x, "-", y, "=", subtract(x, y))
+elif z == 3:	
+	print(x, "*", y, "=", multiply(x, y))
+elif z == 4:	
+	print(z, "/", y, "=", divide(x, y))
