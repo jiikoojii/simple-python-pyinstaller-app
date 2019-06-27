@@ -23,4 +23,4 @@ def operations(z):
 		4: print(z, "/", y, "=", divide(x, y)),
 }
 
-print(operations)
+print(operations(x, y))
