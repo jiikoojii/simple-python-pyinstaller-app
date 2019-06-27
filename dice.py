@@ -22,7 +22,7 @@ def multiply(x, y):
 def divide(x, y):
    return x / y
    
-print(add)
-print(subtract)
-print(multiply)
-print(divide)
+print(add(x, y))
+print(subtract(x, y))
+print(multiply(x, y))
+print(divide(x, y))
