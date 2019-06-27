@@ -4,8 +4,6 @@ pipeline {
         stage('Build') { 
                 steps {
 					sh '''
-					python hello.py
-					ls -la
 					python dice.py
 					'''
 				}
