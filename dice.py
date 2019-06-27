@@ -22,5 +22,6 @@ def operations(z):
 		3: print(x, "*", y, "=", multiply(x, y)),
 		4: print(z, "/", y, "=", divide(x, y)),
 }
-
-print(operations(x, y))
+def switch(z)
+	return switcher.get(z)()
+print(switcher)
