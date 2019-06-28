@@ -2,7 +2,7 @@ import urllib.request
 import urllib.parse
 import re
 
-url = 'https://www.ilmatieteenlaitos.fi'
+url = 'http://opendata.fmi.fi/wfs?service=WFS&version=2.0.0&request=getFeature&storedquery_id=fmi::forecast::hirlam::surface::point::multipointcoverage&place=helsinki&'
 values = {'s':'basics',
 		'submit':'searh'}
 data = urllib.parse.urlencode(values)
