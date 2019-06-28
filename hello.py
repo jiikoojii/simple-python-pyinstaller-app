@@ -1,5 +1,6 @@
 import urllib.request
 import urllib.parse
+import re
 
 url = 'http://www.ilmatieteenlaitos.fi'
 resp = urllib.request.urlopen(url)
