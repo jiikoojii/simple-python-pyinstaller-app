@@ -1,7 +1,6 @@
-import requests
+import urllib.requests
 
-link = "http://www.iltalehti.fi"
-f = requests.get(link)
-print(f.text)
+webUrl = urllib.request.urlopen('http://www.iltalehti.fi')
+print(str(webUrl.getcode()))
 
 #request needs to be installed
