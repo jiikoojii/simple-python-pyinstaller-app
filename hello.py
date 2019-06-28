@@ -1,6 +1,9 @@
 import urllib.request
+import urllib.parse
 
-with urllib.request.urlopen('http://www.ilmatieteenlaitos.fi') as f:
-	print(f.read())
+url = 'http://www.ilmatieteenlaitos.fi'
+resp = urllib.request.urlopen(url)
+respData = resp.read()
 
-#request needs to be installed
+paragraphs = re.findall(r'<p>(.*?)</p>', str(respData))
+print(paragraphs)
