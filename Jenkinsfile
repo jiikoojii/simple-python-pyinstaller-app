@@ -4,7 +4,7 @@ pipeline {
         stage('Build') { 
                 steps {
 					sh '''
-					python dice.py
+					#python dice.py
 					python hello.py
 					'''
 				}
