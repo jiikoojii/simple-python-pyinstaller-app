@@ -1,6 +1,6 @@
 import urllib.request
 
-webUrl = urllib.request.urlopen('http://www.iltalehti.fi')
-print(str(webUrl.getcode()))
+with urllib.request.urlopen('http://www.ilmatieteenlaitos.fi') as f:
+	print(f.read(300))
 
 #request needs to be installed
