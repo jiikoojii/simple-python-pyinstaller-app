@@ -5,8 +5,8 @@ pipeline {
                 steps {
 					sh '''
 					#python dice.py
-					#python hello.py
-					python converter.py
+					python hello.py
+					#python converter.py
 					'''
 				}
         }
