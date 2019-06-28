@@ -3,7 +3,12 @@ import urllib.parse
 import re
 
 url = 'http://www.ilmatieteenlaitos.fi'
-resp = urllib.request.urlopen(url)
+values = {'s':'basics',
+		'submit':'searh'}
+data = urllib.parse.urlencode(values)
+data = data.encode('utf-8')
+req = urllib.request.Request(url, data)
+resp = urllib.request.urlopen(req)
 respData = resp.read()
 
 paragraphs = re.findall(r'<p>(.*?)</p>', str(respData))
