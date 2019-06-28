@@ -2,7 +2,7 @@ import urllib.request
 import urllib.parse
 import re
 
-url = 'https://www.iltalehti.fi'
+url = 'https://www.ilmatieteenlaitos.fi'
 values = {'s':'basics',
 		'submit':'searh'}
 data = urllib.parse.urlencode(values)
